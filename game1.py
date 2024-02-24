@@ -1,12 +1,13 @@
+from turtle import Screen
 import pgzrun
 
 WIDTH = 800
 HEIGHT = 500
 
 def draw():
-    screen.draw.text(
+    Screen.draw.text(
         "Hello, Pygame Zero!",
-        topleft=(20, 20),
+        center=(WIDTH/2, HEIGHT/2),
         fontsize=32,
         color="white"
     )
