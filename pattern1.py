@@ -10,13 +10,22 @@ def pentagon():
         fd(50)
         lt(72)
 
+<<<<<<< HEAD
 
+=======
+# testing the functions        
+>>>>>>> 7126933d4e9879b6e5ffa8fcc35b393ade5c1507
 for i in range(6):
     fd(100)
     hexagon()
     pentagon()
     lt(60)
 
+<<<<<<< HEAD
 
     hideturtle()
     mainloop()
+=======
+hideturtle()
+mainloop()
+>>>>>>> 7126933d4e9879b6e5ffa8fcc35b393ade5c1507
